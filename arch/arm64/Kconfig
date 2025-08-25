@@ -2180,11 +2180,11 @@ config MACH_XIAOMI
 
 menu "Xiaomi board selection"
 
-config MACH_XIAOMI_MARBLE
-        bool "marble board"
+config MACH_XIAOMI_LIUQIN
+        bool "liuqin board"
         select MACH_XIAOMI
         help
-          Support for Redmi Note 12 Turbo / Poco F5, condenamed marble / marblein.
+          Support for Xiaomi pad 6 pro liuqin
 
 endmenu
 
